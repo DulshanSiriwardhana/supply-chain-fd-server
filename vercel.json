@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ],
+  "env": {
+    "PINATA_API_KEY": "@pinata_api_key",
+    "PINATA_API_SECRET": "@pinata_api_secret",
+    "PORT": "5000"
+  }
+}
