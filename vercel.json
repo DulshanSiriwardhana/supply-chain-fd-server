@@ -11,10 +11,5 @@
       "src": "/(.*)",
       "dest": "server.js"
     }
-  ],
-  "env": {
-    "VITE_API_KEY": "@pinata_api_key",
-    "VITE_API_SECRET": "@pinata_api_secret",
-    "PORT": "5000"
-  }
+  ]
 }
